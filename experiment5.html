@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <centre><h1>Student Registration Form
+    </h1></centre>
+    <hr>
+    <form id="regform">
+        <label>Full Name:
+            <input type="text"
+            id="name" placeholder="Enter your Full  name" required>
+        </label>
+        <br>
+        <br>
+        <label>Password:
+            <input type="password" id="password"
+            placeholder="Enter password " required>
+        </label><br><br>
+
+        <label>Gender:
+            <input type="radio" name="gender" value="Male"
+            required> Male 
+            <input type="radio" name="gender" value="Female"
+            required> Female 
+            <input type="radio" name="gender" value="Other"> Other
+        </label><br><br>
+
+        <label>Course:
+            <select id="course" required>
+                <option  value="">--Slect Course--</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="BA">BA</option>
+                <option value="B.Sc">B.Sc</option>
+            </select>
+        </label><br><br>
+        <label>Contact No.
+            <input type="text" id="contact" placeholder=
+            "Enter Phone Number" required>
+        </label><br><br>
+        <label>Address:
+            <br><textarea id="address" placeholder="Enter you address"
+            required></textarea>
+        </label><br><br>
+        <button class="btn" type="submit">Register</button>
+        <button class="btn" type="reset">Clear</button>
+    </form>
+
+    <div id="output"></div>
+    <hr>
+        <centre> <div class="footer">&copy;
+            2025 Student
+            Registration Portal
+        </div>
+    </centre>    
+</body>
+</html>
